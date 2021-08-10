@@ -1,0 +1,20 @@
+<!--<h1>HELLO FULL STACK DEVELOPER!!!</h1>-->
+<h1>{{ nombre }}</h1>
+<dl>
+  <td>Nombre:</td>
+  <dd>{{ nombre }}</dd>
+
+  <td>Edad:</td>
+  <dd>{{ edad }}</dd>
+  <td>Función:</td>
+  <dd>{{ ObtenerNombre() }}</dd>
+  <td>Capitalizado:</td>
+  <dd>{{ nombreCapitalizado }}</dd>
+</dl>
+
+<button style="background-color: blue" (click)="cambiarNombre()">
+  Cambiar Héroe
+</button>
+<button style="background-color: gray" (click)="cambiarEdad()">
+  Cambiar Edad
+</button>
